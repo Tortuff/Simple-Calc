@@ -56,14 +56,7 @@ function divide() {
     calculateResult('DIV');
 };
 
-
 plusBtn.addEventListener('click', add);
 substractBtn.addEventListener('click', substract);
 multiplyBtn.addEventListener('click', multiply);
 divideBtn.addEventListener('click', divide);
-
-
-// 1. Кнопка очищения 'Clear';
-// 2. По нажатию на кнопку очищается результат, описание, поле инпута
-// 3. Создать ГитХаб: cd, git init, git add . , git commit -m"", git push, git origin main;
-
