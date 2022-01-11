@@ -1,15 +1,44 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/style.css" type="text/css">
-    <title>Document</title>
-</head>
-<body>
-    <h1>Удачи в изучении JavaScript!</h1>
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="./assets/styles/style.css" />
+        <title>Calc</title>
+    </head>
+    <body>
+        <div class="container">
+            <header class="header">
+                <h2>Calculator</h2>
+            </header>
 
-    <script src="js/delThis.js"></script>
-</body>
+            <main>
+                <form action="">
+                    <h2>Number</h2>
+                    <input type="number" id="input"/>
+                </form>
+
+                <section>
+                    <button class="btn-plus">+</button>
+                    <button class="btn-substract">-</button>
+                    <button class="btn-multiply">*</button>
+                    <button class="btn-divide">/</button>
+                </section>
+                <section>
+                    Current action :
+                    <div class="action"></div>
+                    Result :
+                    <div class="result"></div>
+                </section>
+            </main>
+
+            <footer class="footer">
+                <h3>All rights records 2022(c)</h3>
+            </footer>
+        </div>
+
+        <script src="./assets/scripts/view.js"></script>
+        <script src="./assets/scripts/modal.js"></script>
+    </body>
 </html>
